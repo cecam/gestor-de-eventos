@@ -14,23 +14,24 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Descripción del proyecto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Gestor de eventos, al crear un evento se registra con:ç
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  - Nombre del evento
+  - Descripción del evento
+  - Ubicación
+  - Tags (deportivo, quedada, fiesta, turisteada...)
+  - Lista de asistentes confirmados
 
-## Learn More
+  - Los usuarios pueden crear eventos o participar como asistenes
+  - Una vez confirmada la asistencia, se abre un chat interno del evento
 
-To learn more about Next.js, take a look at the following resources:
+- El creador del evento podrá:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  - invitar gente
+  - expulsar gente
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Pueden existir eventos públicos o privados
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Feed de eventos cercanos a tí
